@@ -2,11 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   // ssr: true,
-  app: {
-    pageTransition: {
-      name: 'page', mode: 'out-in'
-    },
-  },
+  // app: {
+  //   pageTransition: {
+  //     name: 'page', mode: 'out-in'
+  //   },
+  // },
   components: [
     {
       path: '~/components',
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
     families: {
       "Raleway": [100,200,300,400,500,600,700,800],
       // "Comfortaa": [500],
-      "Unbounded": [500]
+      "Unbounded": [100,200,300,400,500,600,700,800]
       // "Source+Serif+4": {
       //   ital: 200
       // }
